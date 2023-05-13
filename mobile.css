@@ -49,7 +49,9 @@
 
     
     } 
-    
+    span {
+        color: #dcd4d4;
+    }
       
     
     header li a:hover{ 
