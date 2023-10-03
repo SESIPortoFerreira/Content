@@ -38,13 +38,6 @@ header img {
 
 } 
 
-  
-
-  
-
-  
-
-  
 
 header ul { 
 
@@ -98,7 +91,18 @@ header li a:hover{
 
 } 
 
-  
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}  
+
+.buttons button {
+    width: 90px;
+    height: 90px;
+    margin: 5.3px;
+}
 
 #titulosemanal { 
 
@@ -185,8 +189,8 @@ span {
     padding-top: 10px;
 }
 .conteudobox1 { 
-
-    display: flex; 
+    
+    display:none; 
 
     flex-direction: row; 
 
@@ -194,7 +198,7 @@ span {
 
     justify-content: center; 
 
-    align-items:flex-start; 
+    align-items:center; 
 
     align-content: center; 
 
@@ -206,11 +210,12 @@ span {
 
     margin-top: 10px; 
 
-    margin-right: 40px; 
+    margin-right: 5px;
+    margin-left:5px ; 
 
-    padding-right: 5px; 
+    padding-right: 3px; 
 
-    padding-left: 5px; 
+    padding-left: 3px; 
 
      
 
@@ -244,61 +249,21 @@ span {
 
   
 
-.conteudobox2 { 
-
-    display: flex; 
-
-    flex-direction: row; 
-
-    flex-wrap: wrap; 
-
-    justify-content: center; 
-
-    align-items: center; 
-
-    align-content: center; 
-
-    background-color: #dcd4d4; 
-
-    border: 4px #9C0A0A solid; 
-
-    border-radius: 4px; 
-
-    margin-top: 10px; 
-
-    margin-left: 40px; 
-
-    padding-right: 5px; 
-
-    padding-left: 5px; 
-
+.jogos { 
+    display: none;  
 } 
 
+.diaadia {
+    display: none;
+}
 
 
 
 
-.conteudobox2 img { 
-
-    max-width: 300px; 
-
-    max-height: 300px; 
-
-    padding-right: 30px; 
-
-    padding-bottom: 10px;
-
-    padding-top: 10px;
-
-} 
 
   
 
-.conteudobox2 p { 
 
-    font-size: 23px; 
-
-} 
 
   
 
