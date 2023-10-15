@@ -24,9 +24,9 @@
     
         display: flex; 
     
-        border: 5px solid #9C0A0A; 
+        border: 5px solid #9c0a0a07; 
     
-        background-color: rgb(234, 220, 220); 
+        background-color: rgba(252, 125, 125, 0.104); 
     
     } 
     
@@ -63,8 +63,20 @@
         font-size: 35px; 
     
     } 
+
     
-      
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}  
+    
+.buttons button {
+    width: 90px;
+    height: 90px;
+    margin: 5.3px;
+}      
     
     #titulosemanal { 
     
@@ -108,7 +120,7 @@
     
     .conteudobox1 { 
     
-        display: flex; 
+        display: none; 
     
         flex-direction: row; 
     
@@ -148,69 +160,29 @@
         font-size: 13px; 
     
     } 
-    
       
     
-    .conteudobox2 { 
+    .jogos { 
+        display: none;  
+    } 
     
-        display: flex; 
-    
-        flex-direction: row; 
-    
-        flex-wrap: wrap; 
-    
-        justify-content: center; 
-    
-        align-items:flex-start; 
-    
-        align-content: center; 
-    
-        background-color: #dcd4d4; 
-    
-        border: 4px #9C0A0A solid; 
-    
-        border-radius: 4px; 
-    
+    .diaadia {
+        display: none;
+    }   
 
-    } 
-    
-      
-    
-    .conteudobox2 img { 
-    
-        max-width: 30px; 
-    
-        max-height: 30px; 
-    
-        padding-right: 3px; 
-    
-    } 
-    
-      
-    
-    .conteudobox2 p { 
-    
-        font-size: 13px; 
-    
-    } 
-    
-      
-    
     footer { 
     
         display: flex; 
     
         justify-content: space-evenly; 
     
-        background-color: rgb(255, 114, 114); 
+        background-color: rgba(252, 125, 125, 0.104); 
     
         border-top: 3px #9C0A0A solid; 
     
         border-bottom: 7px #9C0A0A solid; 
     
         color: black; 
-    
-        color: rgb(255, 255, 255); 
     
         margin-top: 4px; 
     

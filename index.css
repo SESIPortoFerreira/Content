@@ -10,9 +10,9 @@
 
 body { 
 
-    background-color: white; 
+    background-color: #FFFFFF ; 
 
-    color: black; 
+    color: #000000 ; 
 
 } 
 
@@ -22,9 +22,9 @@ header {
 
     display: flex; 
 
-    border: 5px solid #9C0A0A; 
+    border: 5px solid #9c0a0a07; 
 
-    background-color: rgb(234, 220, 220); 
+    background-color: rgba(252, 125, 125, 0.104); 
 
 } 
 
@@ -271,17 +271,16 @@ footer {
 
     display: flex; 
 
-    justify-content: space-evenly; 
+    justify-content:space-evenly; 
 
-    background-color: rgb(255, 114, 114); 
+    background-color: rgba(252, 125, 125, 0.104); 
 
-    border-top: 3px #9C0A0A solid; 
+    border-top: 3px #9c0a0a07 solid; 
 
-    border-bottom: 7px #9C0A0A solid; 
+    border-bottom: 7px #9c0a0a07 solid; 
 
     color: black; 
 
-    color: rgb(255, 255, 255); 
 
     margin-top: 40px; 
 
