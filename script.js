@@ -1,3 +1,7 @@
+window.addEventListener('load', function() {
+    this.alert("Para melhor experiência do site, use o horizontalmente")
+})
+
 var container = document.querySelector('.conteudobox1')
 container.style.display = 'none'
 
