@@ -17,6 +17,16 @@ btnJogos.addEventListener('click', function(){
     //divJogos.style.display = 'flex'
 })
 
+btnNoticias.addEventListener('click', function(){
+    var container = document.querySelector('.conteudobox1')
+    container.style.display = 'none'
+    var divNoticias = document.querySelectorAll('.noticias')
+    divJogos.forEach(function(div){
+        div.style.display = 'flex'
+    })
+    //divJogos.style.display = 'flex'
+})
+
 var btnDiaadia = document.querySelector('#Diaadia')
 
 btnDiaadia.addEventListener('click', function(){
